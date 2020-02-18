@@ -222,7 +222,7 @@ GameObject:
   - component: {fileID: 800957061}
   - component: {fileID: 800957060}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Cubifier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -243,11 +243,11 @@ MonoBehaviour:
   sourceImage: {fileID: 2800000, guid: df108e4b252a7ea42ab30d47fca905c5, type: 3}
   mat: {fileID: 2100000, guid: ba853fb89b88e1844834f575c51e437a, type: 2}
   prefab: {fileID: 0}
-  hasRigidbody: 1
+  hasRigidbody: 0
   cubeHolder: {fileID: 800957061}
   scaleFactor: 1
   alphaCutOut: 0.43
-  quality: 2
+  quality: 4
 --- !u!4 &800957061
 Transform:
   m_ObjectHideFlags: 0
